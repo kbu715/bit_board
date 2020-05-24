@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express'); //설치된 express 모듈을 
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
