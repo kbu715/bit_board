@@ -13,7 +13,7 @@
       <form class="user-form" action="/users" method="post">
         <fieldset disabled>
           <div class="form-group row">
-            <label for="name" class="col-sm-3 col-form-label">Name</label>
+            <label for="name" class="col-sm-3 col-form-label">이름</label>
             <div class="col-sm-9">
               <input class="form-control" type="text" id="name" name="name" value="<%= user.name %>">
             </div>
@@ -29,7 +29,7 @@
 
       <div>
         <% if(isAuthenticated && currentUser.id == user.id){ %>
-          <a class="btn btn-primary" href="/users/<%= user.username %>/edit">Edit</a>
+          <a class="btn btn-primary" href="/users/<%= user.username %>/edit">수정</a>
         <% } %>
       </div>
 
