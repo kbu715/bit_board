@@ -1,8 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  
 }
 .breadcrumb-item {
   font-size: 0.8em !important;
+  
 }
 .ellipsis{
   display: block;
@@ -10,6 +12,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  
 }
 
 .board-table {

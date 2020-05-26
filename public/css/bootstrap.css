@@ -4404,6 +4404,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+
 }
 
 .navbar .container,
@@ -4427,7 +4428,9 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  
 }
+
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4498,6 +4501,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+  
 }
 
 @media (min-width: 576px) {
